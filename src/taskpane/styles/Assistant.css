@@ -1,0 +1,225 @@
+.assistant-container {
+  height: 100dvh;
+}
+
+.rce-container-input {
+  align-items: start !important;
+  background: #fff;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  min-width: 100%;
+  border: 1.5px solid #b3b3b3;
+  border-radius: 5px;
+  height: 66px;
+  padding: 7px;
+}
+
+.rce-input-textarea {
+  height: 41px !important;
+  padding: 0px 5px !important;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f0f0f081;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #8888889d;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #5555559d;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f0f0f0;
+}
+
+.input-btn {
+  display: flex;
+  justify-content: end;
+  margin-top: 5px;
+}
+
+.input-heading {
+  margin: 1px !important;
+  margin-bottom: 2px !important;
+}
+
+.input-conatiner {
+  padding: 10px;
+  background-color: #f5f5f5;
+}
+
+.rce-mbox {
+  background: #f5f5f5 !important;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  box-shadow: none !important;
+  flex-direction: column;
+  float: left;
+  margin: 12px 12px 3px 20px !important;
+  min-width: 140px;
+  padding: 6px 9px 8px;
+  position: relative;
+}
+.images-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 9px;
+  margin-top: 10px;
+  width: 62%;
+}
+
+.message-box-images-container {
+  padding: 10px;
+  padding-top: 1px;
+  background-color: #f5f5f5;
+  width: 88%;
+  border-radius: 5px;
+  margin-top: 8px;
+  margin-left: 13px;
+}
+.message-box-image {
+  border-radius: 7px;
+}
+.message-box-images-btn {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 5px;
+  justify-content: space-between;
+}
+.message-box-images-btn button {
+  background-color: white;
+  border: 1.5px solid #e2e2e2;
+  border-radius: 10px;
+  margin-right: 5px;
+  color: #565656;
+  height: 30px;
+  padding-bottom: 3px;
+}
+.messageBox-container {
+  height: calc(100vh - 205px);
+  overflow-y: scroll;
+}
+.Assistant-Home {
+  background-image: url("/assets/BackgroundImage.png"); /* Replace with your image URL */
+  background-size: cover; /* Adjust the size of the background image */
+  background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+  background-position: center; /* Center the image */
+  height: 90dvh;
+}
+
+.view-more-images {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.5px solid;
+  border-radius: 7px;
+}
+
+.messageBox-home-container {
+  height: calc(100dvh - 200px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+  padding: 8px;
+}
+
+.messageBox-home-btn {
+  padding: 8px;
+  border: 1.5px solid #e2e2e2;
+  border-radius: 10px;
+  font-weight: 500;
+  background-color: white;
+  color: #565656;
+}
+
+.message-box-image-wrapper {
+  position: relative;
+}
+
+.clicked-image {
+  border: 1.5px solid blue;
+  border-radius: 7px;
+  background-color: lightgrey;
+}
+
+.clicked-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+
+.assistant-input-container {
+  position: fixed;
+  bottom: 0;
+  width: 94%;
+  border: 2px solid #d4d4d4;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.assistant-input-container textarea {
+  resize: none;
+  outline: none;
+  border: none;
+  margin: 5px;
+}
+.rce-mbox.rce-mbox-right {
+  background-color: #464646 !important;
+  color: white !important;
+  width: 88%;
+}
+
+.Image-Selected {
+  display: flex;
+  border-bottom: 2px solid #d4d4d4;
+  align-items: center;
+  gap: 2px;
+  padding-left: 5px;
+}
+
+.send-prompt-btn-active {
+  border: none !important;
+  background: #2f2f2f !important;
+  color: white !important;
+}
+
+.send-prompt-btn-inactive {
+  border: none !important;
+  background: #f2f2f2 !important;
+  color: #a1a1a1 !important;
+}
+.Text-Selected {
+  border-bottom: 2px solid #d4d4d4;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-clamp: 2;
+  max-height: calc(1em * 3);
+  display: flex;
+  align-items: center;
+}

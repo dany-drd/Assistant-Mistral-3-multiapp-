@@ -1,0 +1,15 @@
+.topbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #b3b3b3;
+    padding: 7px;
+}
+
+.add-btn{
+    background-color: black;
+    border-radius: 3px;
+    color: white;
+    padding: 3px;
+}
